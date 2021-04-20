@@ -1,0 +1,109 @@
+/**--- Caja superior ---**/
+
+.container-1{
+    margin: auto;
+    width: 1300px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 2px solid rgba(0,0,0,0.3);
+    border-left: 2px solid rgba(0,0,0,0.3);
+    border-right: 2px solid rgba(0,0,0,0.3);
+}
+.container-1 div{
+    width: 100px;
+    height: 100px;
+    background-color: #310F40;
+    margin: 20px;
+   
+   
+}
+.container-1 p{
+    margin-top: 27px;
+    text-align: center;
+    font-size: 40px;
+    color: #9AD2D9;
+    font-family:monospace;
+}
+.container-2{
+    margin: auto;
+    width: 1300px;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    border-bottom: 2px solid rgba(0,0,0,0.3);
+    border-left: 2px solid rgba(0,0,0,0.3);
+    border-right: 2px solid rgba(0,0,0,0.3);
+}
+.container-2 div{
+    width: 100px;
+    height: 100px;
+    background-color: #310F40;
+    margin: 20px;
+   
+   
+}
+.container-2 p{
+    margin-top: 27px;
+    text-align: center;
+    font-size: 40px;
+    color: #D94848;
+    font-family:monospace;
+}
+
+/** ---- Caja inferior ---- **/
+
+.bigone{
+    width: 1300px;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    border: 2px solid rgba(0,0,0,0.3);
+}
+.containerlist1{
+    height: auto;
+    width: 650px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    float:right;  
+}
+.containerlist1 div{
+    width: 600px;
+    height: 100px;
+    background-color:#D9644A;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 7px;
+}
+.containerlist1 p{
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;;
+    font-family:monospace;
+    margin-top: 27px;
+}
+.containerlist2{
+    height: auto;
+    width: 650px;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.containerlist2 div{
+    width: 600px;
+    height: 100px;
+    background-color: #9AD2D9;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 7px;
+}
+.containerlist2 p{
+    margin-top: 27px;
+    text-align: center;
+    font-size: 40px;
+    color:  #707070;
+    font-family:monospace;
+}
